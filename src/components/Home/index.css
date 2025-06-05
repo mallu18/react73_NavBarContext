@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  width: 300px;
+}
+
+.home-container.light {
+  background-color: #f8fafc;
+}
+
+.home-container.dark {
+  background-color: #000000;
+}
